@@ -1,0 +1,11 @@
+package com.learnspring.learnspringframework;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class HelloWorldConfiguration {
+
+	public String name() {
+		return "Ranga";
+	}
+}
